@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Birthday Card</title>
+    <!--import proper Javascript and CSS files -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <!-- SAMPLE PICS FOR YOUR BG-->
+    <script>
+        $(document).ready(function(){
+
+            CardInfo = {
+                "from":"",
+                "to":"",
+                "location":[
+                    {
+                        city:"",
+                        state:""
+                    }
+                ],
+                "eventName": ""
+            };
+
+            //alert(CardInfo.eventName)
+
+        })
+    </script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div class="row" >
+        <!--Navigation Panel -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Happy Birthday</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+            </ul>
+            <i class="material-icons">email</i>
+        </div>
+    </nav>
+
+    <div class="col s9 calign-wrapper z-depth-5 card-panel hoverable" style="background-color: darkcyan">
+        <!--Birthday Card-->
+        <div class="card">
+            <div class="s8 card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://www.pardot.com/content/uploads/2015/10/shutterstock_261341486.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4 z-depth-5" style="text-align: center">Open Card<i class="material-icons right">more_vert</i></span>
+                <!--<p><a href="#">This is a link</a></p>-->
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4 z-depth-5" style="text-align: center">It's Your Day<i class="material-icons right">close</i></span>
+                <p style="text-align: center; font-size: 45px">
+                    You're a <span style="color: darkcyan">year </span><span style="color: orange">OLDER,</span> and older than you've <span style="color: orange;">ever been </span><span style="color:darkcyan">BEFORE. </span>
+                    But you're a <span style="color:orange">year </span><span style="color: darkorange">YONGER</span> than you'll be this time <span style="color: darkcyan">next year,</span> and in fact, <span style="color: orange">younger</span> than you'll <span style="color:darkcyan">ever</span> be again.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AXd3hlATD5Q?ecver=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text" style="text-align: center">To You!</h5>
+                <p class="grey-text text-lighten-4"> </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2014 Made by Breanna Rice
+            <a class="grey-text text-lighten-4 right" href="#!">CIS 470</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
